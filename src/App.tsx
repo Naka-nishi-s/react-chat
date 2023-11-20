@@ -3,7 +3,7 @@ import { Chat } from "./Chat";
 
 function App() {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} sx={{ bgcolor: "pink" }}>
       {/* 左側の画像は、画面幅がsm以上の時にのみ表示 */}
       <Grid
         item
